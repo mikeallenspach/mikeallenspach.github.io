@@ -1,1 +1,818 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Mike Allenspach's Website" />
+    <meta name="author" content="Mike Allenspach" />
+    <title>Mike Allenspach's Website</title>
+
+    <!-- Import Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">Mike Allenspach</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teaching">Supervision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#engagement">Engagement</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    <header>
+        <div class="cover text-center" style="position:relative; top:max(10vh,60px);">
+            <h1 class="title-name">Mike Allenspach</h1>
+            <p class="title-description">Robotics Researcher in Aerial Manipulation</p>
+
+            <a href="mailto:amike@ethz.ch" target="_blank" class="title fa fa-envelope fa-3x"
+                style="padding-left:10px;padding-right:10px;"></a>
+            <a href="https://github.com/mikeallenspach" target="_blank" class="title fab fa-github fa-3x"
+                style="padding-left:10px;padding-right:10px;"></a>
+            <a href="https://mavt.ethz.ch/de/personen/person-detail.MjA2NTUy.TGlzdC81NTksLTE3MDY5NzgwMTc=.html"
+                target="_blank" class="title fa fa-map-marker fa-3x" style="padding-left:10px;padding-right:10px;"></a>
+        </div>
+    </header>
+
+    <!-- About section-->
+    <section class="bg-dark text-white" id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2><i class="fa fa-user fa-1x"></i> About me</h2>
+                    <p class="lead">
+                    <p>
+                        I am currently a PhD student at the <a href="https://asl.ethz.ch/">Autonomous Systems Lab
+                            (ASL)</a> at <a href="https://ethz.ch/en.html">ETH Zürich</a>, Switzerland, under the
+                        guidance of Prof. Roland Siegwart.
+                        My work at ASL spans design, system identification, state estimation, control, and
+                        planning for omnidirectional aerial vehicles in the context of <a
+                            href="https://www.youtube.com/watch?v=njlyQnRwNLs"> aerial
+                            manipulation</a>.
+                    </p>
+                    <!-- Our research at the lab focuses on <a href="https://www.youtube.com/watch?v=njlyQnRwNLs">aerial
+                            manipulation</a>, which extends the capabilities of aerial robots beyond mere inspection,
+                        allowing them to physically interact and exchange forces with their environment.
+                        In detail, our work spans the design, system identification, state estimation, control, and
+                        planning for aerial vehicles, especially omnidirectional platforms, as well as demonstrating
+                        their use in industrial interaction applications such as non-destructive testing, layouting, and
+                        drilling. -->
+
+                    <p>
+                        My research specifically aims to facilitate the straightforward integration of human-robot
+                        interaction for these platforms.
+                        This involves developing controllers and planners compatible for human-in-the-loop scenarios,
+                        enabling omnidirectional aerial robots to adapt mission execution and planning according to
+                        human intent.
+                    </p>
+
+                    <p>
+                        Prior to my PhD, I completed a Bachelor's in Mechanical Engineering and a Master's in Robotics,
+                        Systems, and Control at ETH Zürich, Switzerland.
+                        I also spent one semester abroad at <a href="https://www.mit.edu/">MIT</a>, USA, taking
+                        graduate-level robotic courses in the
+                        Mechanical Engineering program.
+                        My Master's degree was supported by the <a
+                            href="https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html">Excellence
+                            Scholarship and Opportunity Programme</a>, and I was awarded the <a href="#">Willi Studer
+                            Prize</a> and <a href="#">ETH Medal</a> for the best graduate degree and outstanding Master
+                        Thesis, respectively.
+                    </p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="bg-dark text-white" id="projects">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center"></div>
+            <div class="col-lg-8">
+                <h2><i class="fa fa-cogs"></i> Selected Projects</h2>
+                <hr />
+
+                <h4>Safe Interaction amidst Human Unpredictability</h4>
+                <p class="tight">
+                    We studied a system where a human and aerial robot are physically connected by a cable,
+                    emulating
+                    interaction forces typically encountered during physical human-robot interaction (e.g. tool
+                    handover
+                    or collaborative load lifting). We theoretically proved and experimentally showed the stability
+                    of
+                    the developed compliant controller in the presence of nonlinear and unpredictable disturbances,
+                    as
+                    well as its improved human comfort compared to state-of-the-art.
+                </p>
+
+                <p class="tight"><em>M. Allenspach, Y.Vyas, M. Rubio, R. Siegwart, M. Tognon </em><a href="#aeroguide"
+                        class="fa fa-file-alt"></a></p>
+                <div class="video-container">
+                    <iframe class="video" src="https://www.youtube.com/embed/tZH1AUFMxvM?si=bKtgJmWLvBJT8hX7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <hr />
+
+                <h4>Extending Teleoperation to 6 Degrees-of-Freedom</h4>
+                <p class="tight">
+                    We expanded traditional bilateral teleoperation methods to encompass omnidirectional aerial
+                    vehicles, aiming to assess their suitability for controlling the numerous degrees of
+                    freedom. Our practical experiments indicated that traditional methods are limited for
+                    omnidirectional vehilces, due to the operator's physical inability to properly decouple all
+                    degrees
+                    of freedom.</p>
+                <p class="tight"><em>M. Allenspach, N. Lawrance, M. Tognon, R. Siegwart </em><a href="#teleop"
+                        class="fa fa-file-alt"></a></p>
+                <div class="video-container">
+                    <iframe class="video" src="https://www.youtube.com/embed/EQUE8aPmugc?si=fxEH6DBI8W9EB9Ct"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <hr />
+
+                <h4>Enhanced Teleoperation using Mixed-Reality</h4>
+                <p class="tight">
+                    We leverage Mixed-Reality technology to explore novel reference generation and user feedback
+                    techniques, with the goal of surpassing physical and hardware constraints of traditional
+                    human-robot
+                    interfaces.
+                    Our Mixed-Reality is tailored specifically for
+                    omnidirectional aerial vehicles, offering efficient and intuitive teleoperation capabilities.
+                </p>
+                <p class="tight"><em>M. Allenspach, T. Kötter, R. Bähnemann, M. Tognon, R. Siegwart </em><a
+                        href="#mr-teleop" class="fa fa-file-alt"></a></p>
+
+                <img src="assets/mr_teleop.png" class="pub-left-img">
+                <hr />
+
+
+                <h4>Exploiting Mixed-Reality for SE(3) Trajectory Planning</h4>
+                <p class="tight"></p>
+                Transitioning away from labor-intensive manual control in teleoperation, we investigated a
+                Mixed-Reality interface for intuitive planning and modification of 6 degrees-of-freedom
+                trajectories. We qualitatively demonstrated its effectiveness in planning and visualizing the
+                planned SE(3) motions directly in the real environment.
+                </p>
+                <p class="tight"><em>M. Allenspach, S. Laasch, N. Lawrance, M. Tognon, R. Siegwart
+                    </em><a href="#mr-traj" class="fa fa-file-alt"></a></p>
+                <div class="video-container">
+                    <iframe class="video" src="https://www.youtube.com/embed/hhlUIpnDti4?si=b6gy7APRQA4cENQk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <hr />
+
+                <h4>Nonlinear MPC for Propeller-Tilting hybrid UAVs </h4>
+                <p class="tight"></p>
+                We developed a nonlinear model predictive controller for a hybrid tiltrotor vehicle, facilitating
+                smooth transitions between hover and fixed-wing flight. Real-world flight tests confirm its
+                effectiveness, with simulation results demonstrating performance improvements over traditional gain
+                scheduling methods.
+                </p>
+                <p class="tight"><em>M. Allenspach, G. Ducard
+                    </em><a href="#ducard" class="fa fa-file-alt"></a></p>
+                <table style="width:100%;">
+                    <col style="width:50.0%;">
+                    <col style="width:50.0%">
+                    <tr>
+                        <td style="vertical-align:top">
+                            <div class="video-container"><iframe class="video" src="assets/hybrid_offboard.webm"
+                                    frameborder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    preload="none" allowfullscreen></iframe></div>
+                        </td>
+                        <td style="vertical-align:top">
+                            <div class="video-container"><iframe class="video" src="assets/hybrid_onboard.webm"
+                                    frameborder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    preload="none" allowfullscreen></iframe></div>
+                        </td>
+                    </tr>
+                </table>
+                <hr />
+
+                <h4>Optimal Control and Actuator Allocation for Omnidirectional Aerial Vehicles</h4>
+                <p class="tight"></p>
+                We designed a control and actuator allocation framework for omnidirectional aerial vehicles,
+                with a key emphasis on achieving optimal tracking in all 6 degrees-of-freedom.
+                An additional focus was on leveraging the nullspace of this overactuated system to ensure stability
+                and effectivel management of singularities.
+                Flight experiments validate the system's capabilities.
+                </p>
+                <p class="tight"><em>M. Allenspach, K. Bodie, M. Brunner
+                    </em><a href="#ijrr" class="fa fa-file-alt"></a></p>
+                <div class="video-container">
+                    <iframe class="video" src="https://www.youtube.com/embed/mBi9mOQaZzQ?si=y1KpvhazfMSkCs1z"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="bg-dark text-white" id="publications">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2><i class="fa fa-book fa-1x"></i> Publications</h2>
+                    <hr />
+                    <h4>Books</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:110px;">
+                        <col style="width:15px;">
+                        <col>
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top"><img src="./assets/springer_book.jpg" class="pub-left-img">
+                            </td>
+                            <td></td>
+                            <td style="vertical-align:center">
+                                <p class="tight">K. Bodie, M. Brunner, <u>M. Allenspach</u>; <b>Omnidirectional
+                                        Tilt-Rotor Flying Robots For Aerial Physical Interaction</b>; <em>
+                                        Springer, 2024 </em> | <a
+                                        href="https://link.springer.com/book/10.1007/978-3-031-45497-4"
+                                        class="fa fa-file-alt fa-1x"></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr />
+
+                    <h4>Journal Papers</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:50px;">
+                        <col>
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="aeroguide"><u>M. Allenspach</u>, Y. Vyas, M. Rubio, R. Siegwart and
+                                    M. Tognon;
+                                    <b>Human-Sate-Aware
+                                        Controller for a Tethered Aerial Robot Guiding a
+                                        Human by Physical Interaction</b>; <em>IEEE Robotics and
+                                        Automation
+                                        Letters
+                                        (RA-L)</em> | <a
+                                        href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9684670"
+                                        class="fa fa-file-alt fa-1x"></a> | <a
+                                        href="https://www.youtube.com/watch?v=tZH1AUFMxvM" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">G. Ducard and <u>M. Allenspach</u>;
+                                    <b>Review of designs and flight control techniques of hybrid and convertible
+                                        VTOL UAVs</b>; <em>Aerospace Science and Technology
+                                    </em> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/504649"
+                                        class="fa fa-file-alt fa-1x"></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="ducard"><u>M. Allenspach</u>and G. Ducard;
+                                    <b>Nonlinear model predictive control and guidance for a propeller-tilting
+                                        hybrid
+                                        unmanned air vehicle
+                                    </b>; <em>Automatica
+                                    </em> | <a
+                                        href="https://www.sciencedirect.com/science/article/pii/S0005109821003101"
+                                        class="fa fa-file-alt fa-1x"></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2020</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="ijrr">
+                                    <u>M. Allenspach</u>, K. Bodie, M. Brunner, L. Rinsoz, Z. Taylor, M.
+                                    Kamel, R. Siegwart and J. Nieto;
+                                    <b>Design and optimal control of a tiltrotor micro aerial vehicle for efficient
+                                        omnidirectional flight
+                                    </b>; <em>International Journal of Robotics Research (IJRR)
+                                    </em> | <a href="https://journals.sagepub.com/doi/10.1177/0278364920943654"
+                                        class="fa fa-file-alt fa-1x"></a>| <a
+                                        href="https://www.youtube.com/watch?v=mBi9mOQaZzQ" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr />
+
+                    <h4>Peer-reviewed Conference Papers</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:50px;">
+                        <col>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="mr-teleop">
+                                    <u>M. Allenspach</u>, T. Kötter, R.
+                                    Bähnemann, M. Tognon and R. Siegwart;
+                                    <b>Design and Evaluation of a Mixed Reality-based Human-Robot Interface for
+                                        Teleoperation of Omnidirectional Aerial Vehicles
+                                    </b>; <em>
+                                        IEEE International Conference on
+                                        Unmanned
+                                        Aircraft Systems (ICUAS)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/document/10156426"
+                                        class="fa fa-file-alt fa-1x"></a>
+                                </p>
+                            </td>
+
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="mr-traj">
+                                    <u>M. Allenspach</u>, S.
+                                    Laasch, N. Lawrance, M. Tognon and R. Siegwart;
+                                    <b>Mixed Reality Human-Robot Interface to Generate and Visualize 6DoF
+                                        Trajectories: Application to Omnidirectional Aerial Vehicles
+                                    </b>; <em>
+                                        IEEE International Conference on
+                                        Unmanned
+                                        Aircraft Systems (ICUAS)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/document/10156523/" class="fa fa-file-alt"></a>
+                                    |
+                                    <a href="https://www.youtube.com/watch?v=hhlUIpnDti4" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="hallworth">
+                                    B. Hallworth, <u>M. Allenspach</u>, R. Siegwart and M. Tognon;
+                                    <b>State-Aware Path-Following with Humans Through Force-based Communica-
+                                        tion via Tethered Physical Aerial Human-Robot Interaction
+                                    </b>; <em>
+                                        IEEE International Conference on
+                                        Unmanned
+                                        Aircraft Systems (ICUAS)
+                                    </em> |
+
+                                    <a href="https://ieeexplore.ieee.org/document/10156523/" class="fa fa-file-alt"></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="teleop">
+                                    <u>M. Allenspach</u>, N. Lawrance, M. Tognon and R. Siegwart;
+                                    <b>Towards 6DoF Bilateral Teleoperation of an Omnidirectional Aerial Vehicle
+                                        for Aerial Physical Interaction
+                                    </b>; <em>
+                                        IEEE International Conference on Robotics and Automation (ICRA)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/document/9812346/" class="fa fa-file-alt"></a>
+                                    |
+                                    <a href="https://www.youtube.com/watch?v=EQUE8aPmugc" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="szasz">
+                                    R. Szasz, <u>M. Allenspach</u>, M. Han, M. Tognon and R.
+                                    Katzschmann;
+                                    <b>Modeling and Control of an Omnidirectional Micro Aerial Vehicle Equipped
+                                        with a Soft Robotic Arm
+                                    </b>; <em>
+                                        IEEE International Conference on Soft Robotics
+                                        (RoboSoft)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/document/9762161" class="fa fa-file-alt"></a> |
+                                    <a href="https://www.youtube.com/watch?v=N2wDFuwlfes" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight" id="vyas">
+                                    Y. Vyas, <u>M. Allenspach</u>, C. Lanegger, R. Siegwart, M. Tognon;
+                                    <b>Modelling and Estimation of Human Walking Gait for Physical Human-Robot
+                                        Interaction
+                                    </b>; <em>
+                                        IEEE Aerial Robotic Systems Physically Interacting with the Environment
+                                        (AIRPHARO)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9571032"
+                                        class="fa fa-file-alt"></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- Next entry -->
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p>2020</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">
+                                    <u>M. Allenspach</u> and G. Ducard;
+                                    <b>Model Predictive Control of a Convertible Tiltrotor Unmanned Aerial Vehicle
+                                    </b></a>; <em>
+                                        IEEE 28th Mediterranean Conference on Control
+                                        and Automation (MED)
+                                    </em> |
+                                    <a href="https://ieeexplore.ieee.org/document/9183353" class="fa fa-file-alt"></a>
+                                </p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supervision and Teaching -->
+    <section class="bg-dark text-white" id="teaching">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2><i class="fas fa-chalkboard-teacher fa-1x"></i> Supervision and Coaching</h2>
+                    <hr />
+
+                    <h3>Focus Projects</h3>
+                    <hr />
+                    <h4>Aithon: Power Tool Work at Height | <a href="https://aithon.ethz.ch/" class="fas fa-globe"></a>
+                        |
+                        <a href="https://ieeexplore.ieee.org/document/10342274" class="fa fa-file-alt"></a>
+                    </h4>
+                    I was part of a supervisor team that coached a group of highly-skilled Bachelor students in
+                    developing an aerial robot for high-force power tool tasks, such as dilling into vertical concrete
+                    surfaces.
+                    This novel concept continues as a spin-off.
+                    <div class="video-container">
+                        <iframe class="video" src="https://www.youtube.com/embed/kGuKkIqlAqg?si=Wes1TfyTct-A2Ztp"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <hr />
+
+                    <h4>Ignis: Long-Range Surveillance for Wildfire Control | <a href="https://ignis.ethz.ch/"
+                            class="fas fa-globe"></a></h4>
+                    Our team mentored eight Bachelor Students in the design of a tilt-wing aircraft intended to
+                    support
+                    firefighters
+                    in detecting, monitoring and combating wildfires. The final prototype effectively showcased crucial
+                    capabilities such as constrained space take-off and landing, along with seamless transitioning to
+                    highly-efficient cruise flight.
+                    <div class=" video-container">
+                        <iframe class="video" src="https://www.youtube.com/embed/ZWAwjeN-_xs?si=vqOHbI9eEU6JkV2V"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <hr />
+                    <h3>Student Theses, ETH Zürich</h3>
+                    <hr />
+
+                    <h4>Master Theses</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:120px; text-align:right;">
+                        <col>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">P. Apostol; <b>Trajectory Planning, State Estimation and Altitude
+                                        Control of a Venus Aerobot</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">B. Hallworth; <b>Adaptive Impedance Control for Physical Human-Robot
+                                        Interaction with a Tethered UAV</b> | <a href="#hallworth"
+                                        class="fa fa-file-alt"></a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">L. Rouvinez; <b>Learning Motor Dynamics for Omnidirectional Micro
+                                        Aerial
+                                        Vehicles</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">R. Sonderegger; <b>Leveraging Human Intent for Negotiating Risk</b>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">Y. Vyas; <b>Human Walkin Gait Modelling and Estimation for Physical
+                                        Human-Robot Interaction with an Aerial Robot</b> | <a href="#vyas"
+                                        class="fa fa-file-alt"></a></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr />
+
+
+                    <h4>Master-level Semester Projects</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:120px; text-align:right;">
+                        <col>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2024</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">Y. Roth; <b>Detection of Attachment State of UAVs and Wall
+                                        Interaction</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">D. Machain; <b>Learning-based Articulated Object Mapping with the
+                                        HoloLens</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">D. den Elzen; <b>Visualizations for Guided Spatial Mapping in
+                                        Mixed-Reality Applications</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">V. Schorp; <b>Reinforcement Learning Based Whole Body Control of an
+                                        Aerial Manipulator</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">T. Unternährer; <b>An Advanced Modelling of a Human for a Human-Aware
+                                        Control for a Guiding Tethered Aerial Vehicle</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">O. Widler; <b>Vision-based Velocity Estimation of a Human Physically
+                                        Guided by a UAV</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">R. Szasz; <b>Dynamic Modeling and Control of a Coupled
+                                        Omnidirectional
+                                        Micro Aerial Vehicle - Soft Robotics Arm System</b> | <a href="#szasz"
+                                        class="fa fa-file-alt"></a></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2020</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">P. Zhang; <b>Compliant Control of an Underwater
+                                        Manipulator</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2020</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">T. Duerig; <b>Design and Implementation of a Human-Guiding Tethered
+                                        Aerial Vehicle</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">S. Laasch; <b>Trajectory Visualization and Modification for
+                                        Omnidirectional MAVs using Mixed-Reality</b> | <a href="#mr-traj"
+                                        class="fa fa-file-alt"></a></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr />
+
+                    <h4>Bachelor Theses</h4>
+                    <table class="table-margin" style="width:100%;">
+                        <col style="width:120px; text-align:right;">
+                        <col>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">L. Semt; <b>Optimization of Control Allocations of Omnidirectional
+                                        Drones</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2023</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">N. Grether, A. Roberti; <b>Control fo a Two-Wheeled, Gyroscopically
+                                        Stabilized Robot using Model Predictive Control</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Autumn 2022</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">T. Kötter; <b>Mixed-Reality based Human-Robot Interaction for
+                                        Omnidirectional Robots</b> | <a href="#mr-teleop" class="fa fa-file-alt"></a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top">
+                                <p class="thesisdate">Spring 2021</p>
+                            </td>
+                            <td style="vertical-align:top">
+                                <p class="tight">D. Gisler, M. Hüsser; <b>Haptic Teleoperation of an Omnidirectional
+                                        Aerial Manipulator</b></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education and Outreach -->
+    <section class="bg-dark text-white" id="engagement">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2><i class="fa fa-comments fa-1x"></i> Education and Engagement</h2>
+                    <hr />
+                    <h4>Robot Dynamics Lectures, ETH Zürich (2020-Present)</h4>
+                    I am a lecturer for the Robot Dynamics course offered in the ETH Zürich Robotics Master curriculum.
+                    My responsibilities involve lectures and exercise focused on the modeling and control of rotary-wing
+                    UAVs, in particular omnidirectional platforms.
+                    <hr />
+
+                    <h4>Public Demos, Exhibitions and Outreach (2020-Present)</h4>
+                    We actively engage in numerous exhibitions and public science programs, delivering demonstrations
+                    and outreach activities.
+                    Our efforts extend beyond investors and academic or industrial partners to include engagement with
+                    audiences of all ages from the general public.
+                    This encompasses events such as the <a href="https://swissroboticsday.ch/">Swiss Robotics Days</a>,
+                    <a href="https://ethz.ch/en/news-and-events/events/treffpunkt.html">Treffpunkt Science
+                        City</a> and even live broadcasts on <a
+                        href="https://www.srf.ch/play/tv/schweiz-aktuell/video/schaffhausen-kompetenz-zentrum-fuer-drohnen-sorgt-fuer-wirbel?urn=urn:srf:video:b0fa742e-1abf-492e-9749-de25fdc261b1">Swiss
+                        national television</a>.
+                    <table style="width:100%;">
+                        <col style="width:30%;">
+                        <col style="width:30%">
+                        <col style="width:30%">
+                        <tr>
+                            <td style="vertical-align:center">
+                                <img src="assets/outreach_SRD.png" class="tile-img">
+                            </td>
+                            <td style="vertical-align:center">
+                                <img src="assets/outreach_SC.png" class="tile-img">
+                            </td>
+                            <td style="vertical-align:center">
+                                <img src="assets/outreach_SRF.png" class="tile-img">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-black">
+        <div class="container px-4">
+            <p class="m-0 text-center text-white">Copyright &copy; Mike Allenspach 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
